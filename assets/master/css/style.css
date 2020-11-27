@@ -12,15 +12,16 @@ main > .container-fluid, main > .container-fluid > .row{
 }
 .item{
     align-items: center;
+    margin-top: 2rem;
     background-color: wheat;
     border: 2px solid #ccc;
     cursor: pointer;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     font-size: 20px;
     height: 80px;
     justify-content: center;
-    width: 80px;
+    width: 120px;
 }
 #elements-content-gsweb{
     border: 1px solid #ccc;
