@@ -30,7 +30,7 @@
                     <h3><strong>Elements</strong></h3>
                     <p>Here you can find all the elements to build your pages.</p>
                     <div class="elements">
-                        <div class="item">
+                        <div class="item" draggable="true">
                             <div class="text-center">
                                 <i class="fas fa-heading"></i><br />
                                 Title
@@ -46,10 +46,6 @@
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./assets/master/js/main.js" async></script>
-    <script>
-        var $content = document.getElementById('elements-content-gsweb');
-        console.log($content.textContent);
-    </script>
 </body>
 <!--End body-->
 
