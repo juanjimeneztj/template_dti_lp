@@ -38,7 +38,7 @@
                             </div>
 
                             <div class="col-sm">
-                                <div class="item" draggable="true">
+                                <div class="item item-paragraph" draggable="true">
                                     <div class="text-center">
                                         <i class="fas fa-paragraph"></i><br />
                                         Paragraph
@@ -72,8 +72,10 @@
     </main>
 
     <script src="./node_modules/jquery/jquery.min.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./components/general/paragraph.component.js"></script>
     <script src="./assets/master/js/main.js" async></script>
 </body>
 <!--End body-->

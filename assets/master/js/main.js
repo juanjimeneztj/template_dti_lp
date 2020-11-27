@@ -37,5 +37,9 @@ function dragLeave() {
   
 function dragDrop() {
     this.className = 'test';
-    this.append($item);
+    if($item.classList.contains('item-paragraph')){
+        var CodeContent = this.innerHTML;
+        var Ele = paragraph;
+        this.innerHTML = CodeContent + Ele;
+    }
 }
