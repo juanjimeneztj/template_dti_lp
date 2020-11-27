@@ -7,7 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!--Stylesheets-->
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/master/css/style.css">
 
     <!--Title-->
     <title>Builder &#124; FinMC/SIP</title>
@@ -27,6 +29,14 @@
                 <div class="col">
                     <h3><strong>Elements</strong></h3>
                     <p>Here you can find all the elements to build your pages.</p>
+                    <div class="elements">
+                        <div class="item">
+                            <div class="text-center">
+                                <i class="fas fa-heading"></i><br />
+                                Title
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -35,6 +45,7 @@
     <script src="./node_modules/jquery/jquery.min.js"></script>
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/master/js/main.js" async></script>
     <script>
         var $content = document.getElementById('elements-content-gsweb');
         console.log($content.textContent);
