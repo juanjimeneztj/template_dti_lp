@@ -1,8 +1,11 @@
 const $content = document.querySelector('#elements-content-gsweb');
-var $item = document.querySelector('.item');
+var $items = document.querySelectorAll('.item');
+var $item;
 
-$item.addEventListener('dragstart', dragStart);
-$item.addEventListener('dragend', dragEnd);
+$items.forEach($item => {
+    $item.addEventListener('dragstart', dragStart);
+    $item.addEventListener('dragend', dragEnd);
+});
 
 
 $content.addEventListener('dragover', dragOver);
@@ -12,6 +15,7 @@ $content.addEventListener('drop', dragDrop);
 
 function dragStart() {
     this.className += ' hold';
+    $item = this;
 }
   
 function dragEnd() {
