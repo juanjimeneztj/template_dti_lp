@@ -27,15 +27,9 @@
                     <h3><strong>Elements</strong></h3>
                     <p>Here you can find all the elements to build your pages.</p>
                     <div class="elements">
-<<<<<<< HEAD
-                        <div class="item" draggable="true">
-                            <div class="text-center">
-                                <i class="fas fa-heading"></i><br />
-                                Title
-=======
                         <div class="row">
                             <div class="col-sm">
-                                <div class="item">
+                                <div class="item" draggable="true">
                                     <div class="text-center">
                                         <i class="fas fa-heading"></i><br />
                                         Title
@@ -44,7 +38,7 @@
                             </div>
 
                             <div class="col-sm">
-                                <div class="item">
+                                <div class="item" draggable="true">
                                     <div class="text-center">
                                         <i class="fas fa-paragraph"></i><br />
                                         Paragraph
@@ -53,7 +47,7 @@
                             </div>
 
                             <div class="col-sm">
-                                <div class="item">
+                                <div class="item" draggable="true">
                                     <div class="text-center">
                                         <i class="fas fa-image"></i><br />
                                         image
@@ -62,13 +56,12 @@
                             </div>
 
                             <div class="col-sm">
-                                <div class="item">
+                                <div class="item" draggable="true">
                                     <div class="text-center">
                                         <i class="fab fa-youtube"></i><br />
                                         Video
                                     </div>
                                 </div>
->>>>>>> 9ff2ec081d342d6c6b954f520ebf397d6cdfd61a
                             </div>
 
                         </div>
