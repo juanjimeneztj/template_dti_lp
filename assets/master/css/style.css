@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html,body{
     height: 100vh;
     width: 100%;
@@ -10,18 +13,28 @@ main{
 main > .container-fluid, main > .container-fluid > .row{
     height: 100%;
 }
+.elements{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
 .item{
     align-items: center;
-    margin-top: 2rem;
     background-color: wheat;
     border: 2px solid #ccc;
     cursor: pointer;
     display: flex;
     flex-direction: column;    
-    font-size: 20px;
-    height: 80px;
+    font-size: 10px;
+    height: 60px;
     justify-content: center;
-    width: 120px;
+    margin-top: 8px;
+    width: 80px;
+}
+.item i{
+    font-size: 20px;
+}
+.item:hover{
+    border-color: brown;
 }
 #elements-content-gsweb{
     border: 1px solid #ccc;

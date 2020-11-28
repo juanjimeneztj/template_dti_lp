@@ -1,3 +1,30 @@
-const paragraph = `
-    <p class="item-paragraph">test</p>
-`;
+"use strict";
+
+export class paragraph{
+    options = {
+        'class' : null,
+        'id'    : null,
+        'text'  : null,
+        'type'  : 'p'
+    }
+    constructor($text = null,$class = null, $id = null){
+        this.options.class = $class;
+        this.options.text = $text;
+        this.options.id = $id;
+    }
+    create = () => {
+        let $element = document.createElement(this.options.type);
+        if(this.options.id != null){
+            $element.setAttribute('id',this.options.id);
+        }
+        if(this.options.class != null){
+            $element.className = this.options.class;
+        }
+        if(this.options.text != null){
+            $element.textContent = this.options.text;
+        }else{
+            $element.textContent = 'Example';
+        }
+        return $element.outerHTML;
+    }
+}

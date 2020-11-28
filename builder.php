@@ -27,43 +27,29 @@
                     <h3><strong>Elements</strong></h3>
                     <p>Here you can find all the elements to build your pages.</p>
                     <div class="elements">
-                        <div class="row">
-                            <div class="col-sm">
-                                <div class="item" draggable="true">
-                                    <div class="text-center">
-                                        <i class="fas fa-heading"></i><br />
-                                        Title
-                                    </div>
-                                </div>
+                        <div class="item" draggable="true">
+                            <div class="text-center">
+                                <i class="fas fa-heading"></i><br />
+                                Title
                             </div>
-
-                            <div class="col-sm">
-                                <div class="item item-paragraph" draggable="true">
-                                    <div class="text-center">
-                                        <i class="fas fa-paragraph"></i><br />
-                                        Paragraph
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="item item-paragraph" draggable="true">
+                            <div class="text-center">
+                                <i class="fas fa-paragraph"></i><br />
+                                Paragraph
                             </div>
-
-                            <div class="col-sm">
-                                <div class="item" draggable="true">
-                                    <div class="text-center">
-                                        <i class="fas fa-image"></i><br />
-                                        image
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="item" draggable="true">
+                            <div class="text-center">
+                                <i class="fas fa-image"></i><br />
+                                image
                             </div>
-
-                            <div class="col-sm">
-                                <div class="item" draggable="true">
-                                    <div class="text-center">
-                                        <i class="fab fa-youtube"></i><br />
-                                        Video
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="item" draggable="true">
+                            <div class="text-center">
+                                <i class="fab fa-youtube"></i><br />
+                                Video
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -72,11 +58,10 @@
     </main>
 
     <script src="./node_modules/jquery/jquery.min.js"></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./components/general/paragraph.component.js"></script>
-    <script src="./assets/master/js/main.js" async></script>
+    <script type="module" src="./components/components.js"></script>
+    <!-- <script src="./assets/master/js/main.js" async></script> -->
 </body>
 <!--End body-->
 
