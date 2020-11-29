@@ -23,7 +23,7 @@ export class paragraph{
         if(this.options.text != null){
             $element.textContent = this.options.text;
         }else{
-            $element.textContent = 'Example';
+            $element.textContent = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde placeat cum accusantium tempore, sed iusto nisi ullam magnam molestias maiores veniam laboriosam recusandae quo id libero voluptas illum necessitatibus eos.';
         }
         return $element.outerHTML;
     }

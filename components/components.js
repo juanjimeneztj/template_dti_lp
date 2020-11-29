@@ -40,7 +40,7 @@ function dragLeave() {
 function dragDrop() {
     this.className = '';
     if($item.classList.contains('item-paragraph')){
-        let p = new paragraph('Test');
+        let p = new paragraph();
         embedCode(p.create());
     }
 }

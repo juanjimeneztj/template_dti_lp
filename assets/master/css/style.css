@@ -1,49 +1,91 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-html,body{
-    height: 100vh;
-    width: 100%;
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
 }
-main{
-    height: 100%;
-    padding: 15px;
-    width: 100%;
+
+main {
+  height: 100%;
+  padding: 15px;
+  width: 100%;
 }
-main > .container-fluid, main > .container-fluid > .row{
-    height: 100%;
+
+main>.container-fluid {
+  height: 100%;
 }
-.elements{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+
+main>.container-fluid>.row {
+  height: 100%;
 }
-.item{
-    align-items: center;
-    background-color: wheat;
-    border: 2px solid #ccc;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;    
-    font-size: 10px;
-    height: 60px;
-    justify-content: center;
-    margin-top: 8px;
-    width: 80px;
+
+main .elements {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
-.item i{
-    font-size: 20px;
+
+main .elements .item {
+  align-items: center;
+  background-color: wheat;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  height: 60px;
+  justify-content: center;
+  margin-top: 8px;
+  width: 80px;
 }
-.item:hover{
-    border-color: brown;
+
+main .elements .item i {
+  font-size: 20px;
 }
-#elements-content-gsweb{
-    border: 1px solid #ccc;
-    height: 100%;
+
+main .elements .item:hover {
+  border-color: brown;
 }
-#elements-content-gsweb.hold{
-    border: 2px solid #333;
+
+main #elements-content-gsweb {
+  border: 1px solid #ccc;
+  height: 100%;
+  padding: 20px;
 }
-#elements-content-gsweb.hovered{
-    background-color: #f9f9f9;
-    border-style: dashed;
+
+main #elements-content-gsweb * {
+  position: relative;
+}
+
+main #elements-content-gsweb.hold {
+  border: 2px solid #333;
+}
+
+main #elements-content-gsweb.hovered {
+  background-color: #f9f9f9;
+  border-style: dashed;
+}
+
+main #elements-content-gsweb .item-hovered {
+  border: 1px solid teal;
+}
+
+main #elements-content-gsweb .tools-gsweb {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  padding: 0 10px;
+  color: white;
+  background: teal;
+}
+
+main #elements-content-gsweb .tools-gsweb>i {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+main #elements-content-gsweb .tools-gsweb>i:last-of-type {
+  margin-right: 0;
 }

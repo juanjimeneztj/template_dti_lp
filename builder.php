@@ -22,6 +22,14 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-9 col-lg-8 col-xl-9">
                     <div id="elements-content-gsweb"></div>
+                    <template id="gsweb-tools-elements">
+                        <span class="tools-gsweb">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                            <i class="far fa-copy"></i>
+                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </template>
                 </div>
                 <div class="col">
                     <h3><strong>Elements</strong></h3>
@@ -61,7 +69,7 @@
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="module" src="./components/components.js"></script>
-    <!-- <script src="./assets/master/js/main.js" async></script> -->
+    <script async src="./assets/master/js/main.js"></script>
 </body>
 <!--End body-->
 
