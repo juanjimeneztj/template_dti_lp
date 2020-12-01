@@ -1,3 +1,4 @@
+import { headline } from './general/headline.component.js';
 import { paragraph } from './general/paragraph.component.js';
 
 const $content = document.querySelector('#elements-content-gsweb');
@@ -21,7 +22,7 @@ function dragStart() {
 }
   
 function dragEnd() {
-    // this.className = 'item item-paragraph';
+     /*this.className = 'item item-paragraph';*/
 }
   
 function dragOver(e) {
@@ -42,6 +43,11 @@ function dragDrop() {
     if($item.classList.contains('item-paragraph')){
         let p = new paragraph();
         embedCode(p.create());
+    }
+
+    if($item.classList.contains('item-headline')){
+        let h1 = new headline();
+        embedCode(h1.create());
     }
 }
 

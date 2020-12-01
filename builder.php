@@ -35,7 +35,7 @@
                     <h3><strong>Elements</strong></h3>
                     <p>Here you can find all the elements to build your pages.</p>
                     <div class="elements">
-                        <div class="item" draggable="true">
+                        <div class="item item-headline" draggable="true">
                             <div class="text-center">
                                 <i class="fas fa-heading"></i><br />
                                 Title
